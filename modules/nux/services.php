@@ -46,7 +46,7 @@ Nux_Quick_Services::add('outlook', array(
     'tls' => true,
     'port' => 993,
     'name' => 'Outlook.com',
-    'scope' => 'wl.imap',
+    'scope' => 'offline_access wl.imap',
     'smtp' => array(
         'server' => 'smtp.office365.com',
         'port' => 587,
@@ -60,7 +60,7 @@ Nux_Quick_Services::add('office365', array(
     'tls' => true,
     'port' => 993,
     'name' => 'Office365',
-    'scope' => 'wl.imap',
+    'scope' => 'offline_access wl.imap',
     'smtp' => array(
         'server' => 'smtp.office365.com',
         'port' => 587,
